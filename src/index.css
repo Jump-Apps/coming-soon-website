@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Attribution: Roboto Mono by Christian Robertson
+   Licensed under the Apache License 2.0
+   License details: [https://www.apache.org/licenses/LICENSE-2.0] */
+
+@font-face {
+  font-family: "RobotoMono";
+  src: url("./fonts/RobotoMono-VariableFont_wght.ttf") format("truetype");
+  font-display: auto;
+}
+
+html {
+  background-color: #333333;
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  font-family: RobotoMono, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50px;  
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    to top right,
+    #6ae4ff,
+    #7fa7ff
+  ); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+}
+
+.hero-anim {
+  animation: hero-anim 8s ease-in-out infinite;
+}
+
+.fade-in {
+  animation: fade-in .5s ease-in;
+}
+
+@keyframes hero-anim {
+  0% {
+    transform: scale(1.1);
+    opacity: 0;
+
+  }
+  5% {
+    transform: scale(1);
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

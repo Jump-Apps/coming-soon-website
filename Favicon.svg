@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="M" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1063.75 693.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: url(#Unbenannter_Verlauf_1455);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 138.75px;
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_1455" data-name="Unbenannter Verlauf 1455" x1="994.41" y1="626.4" x2="69.41" y2="71.39" gradientTransform="translate(0 695.75) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7fa7ff"/>
+      <stop offset="1" stop-color="#6ae4ff"/>
+    </linearGradient>
+  </defs>
+  <path id="Pfad-Kopie" class="cls-1" d="m69.38,69.38v555s0-323.75,0-323.75c0,0,0-231.25,228.34-231.25s233,231.25,233,231.25m0,323.75v-323.75s2.31-231.25,230.65-231.25,233,231.25,233,231.25v323.75"/>
+</svg>
